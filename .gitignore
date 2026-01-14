@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native directories (standard practice to exclude in repo)
+android/
+ios/
+
+# Environment
+.env*
+.DS_Store
+*.log
+
+# Build artifacts
+build/
+.downloadIntermediates/
+.gradle/
+app-debug.apk
+app-release.apk
+
+# Temporary/Cache
+/tmp/
+.gemini/
+*.artifact.md
+testing_plan.md
+task.md
+walkthrough.md
+implementation_plan.md
+analysis_results.md
+research_notes.md
+experiment_results.md
